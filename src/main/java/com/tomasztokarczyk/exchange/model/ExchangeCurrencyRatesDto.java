@@ -1,10 +1,12 @@
 package com.tomasztokarczyk.exchange.model;
 
 import lombok.Getter;
+import lombok.Setter;
 
 @Getter
+@Setter
 public class ExchangeCurrencyRatesDto {
 
-    private String effectiveDate;
-    private float mid;
+    private String date;
+    private float avgRate;
 }

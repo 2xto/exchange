@@ -12,14 +12,11 @@ public class ExchangeService {
 
     private final NbpClient nbpClient;
 
-    public ExchangeCurrencyDto getCurrencyExchange(String currencyCode){
+    public ExchangeCurrencyDto getCurrencyExchange(String currencyCode) {
         return nbpClient.getCurrencyExchange(currencyCode);
     }
 
-    public ExchangeGoldDto getGoldExchange(){
+    public ExchangeGoldDto getGoldExchange() {
         return nbpClient.getGoldExchange();
     }
-
-
-
 }

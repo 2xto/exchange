@@ -6,5 +6,6 @@ import lombok.Getter;
 @Getter
 @Builder
 public class ExchangeGoldDto {
+
     private float averageGoldPrice;
 }
